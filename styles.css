@@ -29,6 +29,12 @@ body {
     margin-bottom: 20px;
 }
 
+#Joltik {
+    width: 200px;
+    float: right;
+    margin-right: 15px;
+}
+
 .Introduction, 
 .PersonalInfo, 
 .Objective {
