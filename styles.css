@@ -1,0 +1,182 @@
+:root {
+    --color-primary: #7e4bae;
+    --color-secondary: #ffb55e;
+    --color-accent: #aa4f9c;
+    --color-light: #ebceff;
+    --color-contrast: #d92610;
+}
+
+body {
+    font-family: 'Merriweather';
+    font-size: 0.9rem;
+    margin: 40px;
+    background-color: var(--color-light);
+    color: var(--color-primary);
+    line-height: 1.6;
+}
+
+.Pretitle {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+    margin-bottom: 0;
+}
+
+.Title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.Introduction, 
+.PersonalInfo, 
+.Objective {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.GithubInfo {
+    font-family: 'Merriweather';
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 0.8rem;
+    text-align: justify
+}
+
+a {
+    color: var(--color-contrast);
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: var(--color-contrast);
+    text-decoration: underline;
+}
+
+.ListAboutMe, 
+.ListArtMedia {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.ListArtMedia li[itemid="Digital"] {
+    color: var(--color-accent);
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.ListArtMedia li[itemid="Pencils"] {
+    color: var(--color-accent);
+    font-family: 'Comic Sans MS', 'Patrick Hand', cursive;
+    font-style: italic;
+}
+
+.ListArtMedia li[itemid="Watercolors"] {
+    color: var(--color-accent);
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+}
+
+.ListArtMedia li[itemid="Acrylics"] {
+    color: var(--color-accent);
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.ListArtMedia li[itemid="Pastels"] {
+    color: var(--color-accent);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.ListArtMedia li[itemid="Alcohol"] {
+    color: var(--color-accent);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+.ListArtMedia li[itemid="Water"] {
+    color: var(--color-accent);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ListArtMedia li[itemid="Ink"] {
+    color: var(--color-accent);
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.ListArtMedia li[itemid="Ball"] {
+    color: var(--color-accent);
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+}
+
+.SkillTableTitle {
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: var(--color-accent);
+}
+
+.SkillsTable {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.SkillsTable th, 
+.SkillsTable td {
+    border: 1px solid var(--color-primary);
+    padding: 10px;
+    text-align: center;
+}
+
+.SkillsTable th {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+}
+
+.SkillsTable tr {
+    background-color: var(--color-light);
+}
+
+.Image {
+    width: 500px;
+    margin: 20px 0;
+    display: block;
+    border: 3px solid var(--color-accent);
+    border-radius: 10px;
+}
+
+.LabelTextInput {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: var(--color-contrast);
+}
+
+#TextInput {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+}
+
+#ButtonPalette {
+    padding: 8px 15px;
+    margin-left: 5px;
+    background-color: var(--color-contrast);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#ButtonPalette:hover {
+    background-color: var(--color-secondary);
+}
